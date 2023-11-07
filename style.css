@@ -13,6 +13,11 @@
 
 }
 
+.personal-about {
+    background-color: antiquewhite;
+    margin: 0 80px 0 80px;
+}
+
 .about-me {
     text-align: center;
     margin: 40px 40px 0 40px;
@@ -24,13 +29,13 @@
 .personal-info {
     display: flex;
     justify-content: center;
-
 }
 
 .personal-info>div {
     padding-right: 40px;
 
 }
+
 /* .personal-info>div> */
 
 .what-to-do {
@@ -38,4 +43,28 @@
     margin: 40px 40px 0 40px;
     padding: 140px 140px 0 140px;
     white-space: pre-line;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards>div {
+    margin: 80px;
+    padding: 0 40px 0 40px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 10px 5px 5px 5px grey;
+    border-radius: 5px;
+}
+
+.resume-heading {
+    text-align: center;
+}
+
+.resume-detail {
+    display: flex;
+    justify-content: center;
+    margin: 0 40px 0 40px;
 }
