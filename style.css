@@ -1,0 +1,41 @@
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    text-decoration-line: none;
+
+}
+
+.person-name {
+    font-size: 28px;
+    font-weight: 800;
+    color: black;
+
+}
+
+.about-me {
+    text-align: center;
+    margin: 40px 40px 0 40px;
+    padding: 140px 140px 0 140px;
+    white-space: pre-line;
+
+}
+
+.personal-info {
+    display: flex;
+    justify-content: center;
+
+}
+
+.personal-info>div {
+    padding-right: 40px;
+
+}
+/* .personal-info>div> */
+
+.what-to-do {
+    text-align: center;
+    margin: 40px 40px 0 40px;
+    padding: 140px 140px 0 140px;
+    white-space: pre-line;
+}
